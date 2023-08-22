@@ -1,0 +1,58 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'image-webpack-loader',
+1 verbose cli   '--save-dev' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 verbose cache add [ 'image-webpack-loader', null ]
+5 verbose cache add name=undefined spec="image-webpack-loader" args=["image-webpack-loader",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'image-webpack-loader',
+6 verbose parsed url   path: 'image-webpack-loader',
+6 verbose parsed url   href: 'image-webpack-loader' }
+7 silly lockFile 71b1da77-image-webpack-loader image-webpack-loader
+8 verbose lock image-webpack-loader /root/.npm/71b1da77-image-webpack-loader.lock
+9 silly lockFile 71b1da77-image-webpack-loader image-webpack-loader
+10 silly lockFile 71b1da77-image-webpack-loader image-webpack-loader
+11 verbose addNamed [ 'image-webpack-loader', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile c414282c-image-webpack-loader image-webpack-loader@
+14 verbose lock image-webpack-loader@ /root/.npm/c414282c-image-webpack-loader.lock
+15 silly addNameRange { name: 'image-webpack-loader', range: '*', hasData: false }
+16 verbose url raw image-webpack-loader
+17 verbose url resolving [ 'https://registry.npmjs.org/', './image-webpack-loader' ]
+18 verbose url resolved https://registry.npmjs.org/image-webpack-loader
+19 info trying registry request attempt 1 at 12:34:51
+20 http GET https://registry.npmjs.org/image-webpack-loader
+21 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+22 info trying registry request attempt 2 at 12:35:01
+23 http GET https://registry.npmjs.org/image-webpack-loader
+24 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+25 info trying registry request attempt 3 at 12:36:01
+26 http GET https://registry.npmjs.org/image-webpack-loader
+27 silly lockFile c414282c-image-webpack-loader image-webpack-loader@
+28 silly lockFile c414282c-image-webpack-loader image-webpack-loader@
+29 error network tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+29 error network This is most likely not a problem with npm itself
+29 error network and is related to network connectivity.
+29 error network In most cases you are behind a proxy or have bad network settings.
+29 error network
+29 error network If you are behind a proxy, please make sure that the
+29 error network 'proxy' config is set properly.  See: 'npm help config'
+30 error System Linux 5.3.0-1032-aws
+31 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "image-webpack-loader" "--save-dev"
+32 error cwd /alx-react/0x00-Webpack/task-2/public
+33 error node -v v0.10.25
+34 error npm -v 1.3.10
+35 error code ECONNRESET
+36 verbose exit [ 1, true ]

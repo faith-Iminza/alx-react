@@ -1,7 +1,7 @@
 {
-  "name": "task-0",
+  "name": "task-1",
   "version": "0.0.0",
-  "description": "tasks on task-0",
+  "description": "task 1",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,6 +11,12 @@
     "url": "alx-react"
   },
   "author": "faith-iminza",
-  "license": "BSD-2-Clause",
-  "dependencies": {}
+  "license": "BSD-2-Clause"
+// package.json
+
+  // ...
+  "scripts": {
+    "build": "webpack"
+  },
+  // ..
 }
