@@ -1,2 +1,1 @@
-# alx-react
-tasks on react
+introduction to react
